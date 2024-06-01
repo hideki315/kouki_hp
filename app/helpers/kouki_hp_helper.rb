@@ -1,0 +1,2 @@
+module KoukiHpHelper
+end
