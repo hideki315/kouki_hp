@@ -590,25 +590,18 @@ a[href^="tel:"] {
 
 @media all {
 #top {
-	position: relative;
-	overflow: hidden;
+	background-image: url('assets/images/top.jpg'); /* Replace 'path/to/your/image.jpg' with the actual image path */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image within the background */
 }
 .slide {
-	width: 100%;
-	height: calc(100vh - 250px);
-	margin: 0 auto;
-	min-width: 1040px;
-	position: relative;
+	position: relative; /* Allow positioning of content within the slide */
 }
 .slide-list {
-	width: 100%;
-	min-width: 1040px;
-	height: calc(100vh - 250px);
-	background-size: cover;
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
+	position: absolute; /* Position the list relative to the slide */
+  top: 50%; /* Position the list vertically at the center */
+  left: 50%; /* Position the list horizontally at the center */
+  transform: translate(-50%, -50%); /* Center the list within the slide */
 }
 .slide-caption {
 	position: absolute;
