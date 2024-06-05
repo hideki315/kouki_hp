@@ -713,7 +713,7 @@ a[href^="tel:"] {
 	margin-bottom: 2rem;
 }
 .slide-list:nth-child(1) {
-	background-image: url(“/../images/top.jpg”) center center no-repeat;
+	background-image: url(“/../assets/top.png”) center center no-repeat;
 	background-size: cover;
 }
 .topic {
@@ -950,7 +950,7 @@ a[href^="tel:"] {
 .news-time {
 	width: 92px;
 	padding: 5px 0;
-	font-size: 17px;
+	font-size: 12px;
 }
 .news-category {
 	border-radius: 13px;
@@ -3930,6 +3930,7 @@ section:nth-of-type(2) {
 	padding: 20px 0 70px;
 	line-height: 2;
 	text-align: justify;
+	margin: 0 0 0 auto;
 }
 .section-title {
 	width: 100%;
@@ -6056,4 +6057,8 @@ textarea {
 .fixed-btn .fa-envelope {
 	margin-right: 0;
 }
+}
+
+.right {
+	margin: 0 0 0 auto;
 }
