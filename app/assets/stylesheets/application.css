@@ -713,7 +713,7 @@ a[href^="tel:"] {
 	margin-bottom: 2rem;
 }
 .slide-list:nth-child(1) {
-	background-image: url(“/../images/top.jpg”) center center no-repeat;
+	background: url(/../images/slide01.jpg) center center no-repeat;
 	background-size: cover;
 }
 .topic {
